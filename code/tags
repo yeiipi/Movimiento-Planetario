@@ -1,0 +1,86 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Animar3D	animar.py	/^class Animar3D:$/;"	c
+HelloWorld	fun.py	/^def HelloWorld(t_max:float,y_max:float,x_max:float):$/;"	f
+Km_m	cleanData.py	/^def Km_m(km:float):$/;"	f
+MAXMAXMAX	fun.py	/^def MAXMAXMAX(proyectiles):$/;"	f
+Planeta	planetas.py	/^class Planeta:$/;"	c
+Proyectil	fun.py	/^class Proyectil:$/;"	c
+__init__	Gravity.py	/^    def __init__(self, location, mass, velocity, name = ""):$/;"	m	class:body
+__init__	Gravity.py	/^    def __init__(self, x,y,z):$/;"	m	class:point
+__init__	animar.py	/^    def __init__(self,lx,ly,lz,planetas):$/;"	m	class:Animar3D
+__init__	fun.py	/^    def __init__(self,v0:float,theta:float,color:str):$/;"	m	class:Proyectil
+__init__	planetas.py	/^    def __init__(self,raw_info:dict,mapa_distancia,frames,G,delta):$/;"	m	class:Planeta
+__repr__	fun.py	/^    def __repr__(self):$/;"	m	class:Proyectil	file:
+__repr__	planetas.py	/^    def __repr__(self):$/;"	m	class:Planeta	file:
+ani	test.py	/^ani = animation.FuncAnimation(fig, update, frames=frames, fargs=(x,y,z,u,plot), interval=frames\/24)$/;"	v
+ax	test.py	/^ax = fig.gca(projection='3d')$/;"	v
+bodies	Gravity.py	/^    bodies = [$/;"	v
+body	Gravity.py	/^class body:$/;"	c
+calc_trayectoria	planetas.py	/^    def calc_trayectoria(self,pasos:int):$/;"	m	class:Planeta
+calculate_single_body_acceleration	Gravity.py	/^def calculate_single_body_acceleration(bodies, body_index):$/;"	f
+cmap	planetas.py	/^cmap = ['PiYG', 'PRGn', 'BrBG', 'PuOr', 'RdGy', 'RdBu', 'RdYlBu', 'RdYlGn',$/;"	v
+compute_gravity_step	Gravity.py	/^def compute_gravity_step(bodies, time_step = 1):$/;"	f
+compute_velocity	Gravity.py	/^def compute_velocity(bodies, time_step = 1):$/;"	f
+earth	Gravity.py	/^earth = {"location":point(0,1.5e11,0), "mass":6e24, "velocity":point(30000,0,0)}$/;"	v
+el_alma_de_la_fiesta	fun.py	/^def el_alma_de_la_fiesta(frame,tiempo,t_total:int,args:list):$/;"	f
+energiaTildeEnLaI	cleanData.py	/^def energiaTildeEnLaI(planeta,G):$/;"	f
+fig	test.py	/^fig = plt.figure(figsize=(12,12))$/;"	v
+frames	test.py	/^frames = 300$/;"	v
+g	fun.py	/^g = 9.80665$/;"	v
+jupiter	Gravity.py	/^jupiter = {"location":point(0,7.7e11,0), "mass":1e28, "velocity":point(13000,0,0)}$/;"	v
+jupiter_pre	cleanData.py	/^jupiter_pre = { "nombre":"Jupiter", "distancia":5.202, "masa":1.9*(10**27), 'radio':142800\/2 }$/;"	v
+kg_MA	cleanData.py	/^def kg_MA(kg:float):$/;"	f
+load_planetas	planetas.py	/^def load_planetas(lim_esp,*args):$/;"	f
+m_UA	cleanData.py	/^def m_UA(m:float):$/;"	f
+main	cleanData.py	/^def main():$/;"	f
+main	m.py	/^def main():$/;"	f
+main	main.py	/^def main():$/;"	f
+make_path	fun.py	/^    def make_path(self,ax):$/;"	m	class:Proyectil
+make_some_limits	fun.py	/^    def make_some_limits(self):$/;"	m	class:Proyectil
+mars	Gravity.py	/^mars = {"location":point(0,2.2e11,0), "mass":2.4e24, "velocity":point(24000,0,0)}$/;"	v
+marte_pre	cleanData.py	/^marte_pre = { "nombre":"Marte", "distancia":1.523, "masa":6.4*(10**23), 'radio':6790\/2 }$/;"	v
+mercurio_pre	cleanData.py	/^mercurio_pre = { "nombre":"Mercurio", "distancia":0.387, "masa":3.3*(10**23), 'radio':4878\/2}$/;"	v
+mercury	Gravity.py	/^mercury = {"location":point(0,5.7e10,0), "mass":3.285e23, "velocity":point(47000,0,0)}$/;"	v
+motions	Gravity.py	/^    motions = run_simulation(bodies, time_step = 100, number_of_steps = 80000, report_freq = 1000)$/;"	v
+neptune	Gravity.py	/^neptune = {"location":point(0,4.5e12,0), "mass":1e26, "velocity":point(5477,0,0)}$/;"	v
+neptuno_pre	cleanData.py	/^neptuno_pre = { "nombre":"Neptuno", "distancia":30.06, "masa":1.0*(10**26), 'radio':49528\/2 }$/;"	v
+p	test.py	/^p = 300$/;"	v
+periodo	cleanData.py	/^def periodo(planeta,G):$/;"	f
+planetas	cleanData.py	/^planetas = [$/;"	v
+plot	test.py	/^plot= [ax.plot_surface(x, y, z)]$/;"	v
+plot_output	Gravity.py	/^def plot_output(bodies, outfile = None):$/;"	f
+pluto	Gravity.py	/^pluto = {"location":point(0,3.7e12,0), "mass":1.3e22, "velocity":point(4748,0,0)}$/;"	v
+pluton_pre	cleanData.py	/^pluton_pre = { "nombre":"Pluton", "distancia":39.44, "masa":1.5*(10**22), 'radio':2274\/2 }$/;"	v
+point	Gravity.py	/^class point:$/;"	c
+run_simulation	Gravity.py	/^def run_simulation(bodies, names = None, time_step = 1, number_of_steps = 10000, report_freq = 100):$/;"	f
+saturn	Gravity.py	/^saturn = {"location":point(0,1.4e12,0), "mass":5.7e26, "velocity":point(9000,0,0)}$/;"	v
+saturno_pre	cleanData.py	/^saturno_pre = { "nombre":"Saturno", "distancia":9.539, "masa":5.6*(10**26), 'radio':120536\/2 }$/;"	v
+sec_Tperiodo	cleanData.py	/^def sec_Tperiodo(s:float):$/;"	f
+set_t	fun.py	/^    def set_t(self,t):$/;"	m	class:Proyectil
+set_xy	fun.py	/^    def set_xy(self,nx,ny):$/;"	m	class:Proyectil
+sol_pre	cleanData.py	/^sol_pre = { "nombre":"Sol", "distancia":0, "masa":2*(10**30), 'radio':696340}$/;"	v
+sun	Gravity.py	/^sun = {"location":point(0,0,0), "mass":2e30, "velocity":point(0,0,0)}$/;"	v
+tierra_pre	cleanData.py	/^tierra_pre = { "nombre":"Tierra", "distancia":1, "masa":5.9*(10**24), 'radio':12756\/2 }$/;"	v
+u	test.py	/^u = np.linspace(0, 2 * np.pi,frames)$/;"	v
+update	test.py	/^def update(num,x,y,z,u,plot):$/;"	f
+update_aceleracion	planetas.py	/^    def update_aceleracion(self):$/;"	m	class:Planeta
+update_location	Gravity.py	/^def update_location(bodies, time_step = 1):$/;"	f
+update_pos	fun.py	/^    def update_pos(self,frame):$/;"	m	class:Proyectil
+update_posicion	planetas.py	/^    def update_posicion(self):$/;"	m	class:Planeta
+update_velocidad	planetas.py	/^    def update_velocidad(self):$/;"	m	class:Planeta
+update_x	fun.py	/^    def update_x(self):$/;"	m	class:Proyectil
+update_y	fun.py	/^    def update_y(self):$/;"	m	class:Proyectil
+urano_pre	cleanData.py	/^urano_pre = { "nombre":"Urano", "distancia":19.18, "masa":8.6*(10**25), 'radio':51118\/2 }$/;"	v
+uranus	Gravity.py	/^uranus = {"location":point(0,2.8e12,0), "mass":8.7e25, "velocity":point(6835,0,0)}$/;"	v
+v	test.py	/^v = np.linspace(0, np.pi, frames)$/;"	v
+velocidad	cleanData.py	/^def velocidad(planeta,G):$/;"	f
+venus	Gravity.py	/^venus = {"location":point(0,1.1e11,0), "mass":4.8e24, "velocity":point(35000,0,0)}$/;"	v
+venus_pre	cleanData.py	/^venus_pre = { "nombre":"Venus", "distancia":0.723, "masa":4.8*(10**24), 'radio':12104\/2 }$/;"	v
+x	test.py	/^x = 5 * np.outer(np.cos(u), np.sin(v))$/;"	v
+y	test.py	/^y = 5 * np.outer(np.sin(u), np.sin(v))$/;"	v
+z	test.py	/^z = 5 * np.outer(np.ones(np.size(u)), np.cos(v))$/;"	v
